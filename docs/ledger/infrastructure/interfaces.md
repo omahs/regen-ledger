@@ -57,7 +57,7 @@ grpcurl \
 In some programming languages, you may be able to leverage a pre-existing client library to take care of most of the heavy lifting, including compiling protobuf messages. For javascript/typescript developers, [CosmJS](https://github.com/cosmos/cosmjs) is a great place to start.
 
 ::: tip
-While CosmJS provides basic support for all Cosmos SDK based blockchains, you will still need to compile the protobuf messages for Regen Ledger's own modules (e.g. ecocredit module, data module) if you intend to interact with ecosytem service credits or on-chain ecological data.
+While CosmJS provides basic support for all Cosmos SDK based blockchains, you will still need to compile the protobuf messages for Regen Ledger's own modules (e.g. ecocredit module, data module) if you intend to interact with ecosystem service credits or on-chain ecological data.
 :::
 
 For more information about the gRPC interface, check out the [Cosmos SDK Documentation](https://docs.cosmos.network/main/run-node/interact-node.html).
